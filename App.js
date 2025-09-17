@@ -3,10 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Text>Configuracion inicial del proyecto e instalacion de lo basico para empezar</Text>
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
